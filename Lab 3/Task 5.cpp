@@ -127,7 +127,7 @@ void displayCircular(SNode* head, int n)
         }
         temp = temp->next;
     }
-    cout << " -> ... (back to head)" << endl;
+    cout << " ->...back to head" << endl;
 }
 
 int main() 
