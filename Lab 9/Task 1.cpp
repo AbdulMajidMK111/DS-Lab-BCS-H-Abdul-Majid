@@ -32,7 +32,7 @@ public:
 
     Node* rotateRight(Node* y)
     {
-        cout << "Rotation: Right\n";
+        cout << "Rotation: Right" << endl;
         Node* x = y->left;
         Node* t = x->right;
 
@@ -47,7 +47,7 @@ public:
 
     Node* rotateLeft(Node* x)
     {
-        cout << "Rotation: Left\n";
+        cout << "Rotation: Left" << endl;
         Node* y = x->right;
         Node* t = y->left;
 
@@ -98,14 +98,14 @@ public:
 
         if (bf > 1 && key > node->left->key)
         {
-            cout << "Rotation: Left-Right\n";
+            cout << "Rotation: LR" << endl;
             node->left = rotateLeft(node->left);
             return rotateRight(node);
         }
 
         if (bf < -1 && key < node->right->key)
         {
-            cout << "Rotation: Right-Left\n";
+            cout << "Rotation: RL" << endl;
             node->right = rotateRight(node->right);
             return rotateLeft(node);
         }
@@ -182,7 +182,7 @@ public:
 
         if (bf > 1 && balanceFactor(root->left) < 0)
         {
-            cout << "Rotation: Left-Right\n";
+            cout << "Rotation: LR" << endl;
             root->left = rotateLeft(root->left);
             return rotateRight(root);
         }
@@ -194,7 +194,7 @@ public:
 
         if (bf < -1 && balanceFactor(root->right) > 0)
         {
-            cout << "Rotation: Right-Left\n";
+            cout << "Rotation: RL" << endl;
             root->right = rotateRight(root->right);
             return rotateLeft(root);
         }
@@ -205,13 +205,13 @@ public:
     void insertKey(int k)
     {
         root = insert(root, k);
-        cout << "Tree Height: " << height(root) << "\n\n";
+        cout << "Tree Height: " << height(root) << endl << endl;
     }
 
     void deleteKey(int k)
     {
         root = deleteNode(root, k);
-        cout << "Tree Height After Delete: " << height(root) << "\n\n";
+        cout << "Tree Height After Delete: " << height(root) << endl << endl;
     }
 
     void inorder(Node* r)
