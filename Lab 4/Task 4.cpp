@@ -1,3 +1,9 @@
+/* Task#4:
+Use Insertion Sort to sort an array of integers provided by the user. Then, implement the
+Binary Search algorithm to find a target value within the newly sorted array. The program
+should display the sorted array and the index of the found element or a message if it's not
+present. */
+
 #include <iostream>
 #include <vector>
 using namespace std;
