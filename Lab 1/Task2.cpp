@@ -1,4 +1,4 @@
-/* Question#2:
+/* Task#2:
 Create a C++ class named "Exam" using DMA designed to manage student exam records,
 complete with a shallow copy implementation? Define attributes such as student name, exam
 date, and score within the class, and include methods to set these attributes and display exam
