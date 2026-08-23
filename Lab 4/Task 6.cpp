@@ -1,3 +1,9 @@
+/* Task#6:
+Implement the Comb Sort algorithm to sort an array of integers. This algorithm improves
+upon bubble sort by reducing the number of comparisons and swaps using a "gap" that
+decreases over time. After sorting, perform a complexity analysis: count and display the
+total number of swaps and comparisons performed during the sorting process. */
+
 #include <iostream>
 #include <vector>
 using namespace std;
