@@ -1,3 +1,11 @@
+/* Task#7:
+Implement the Shell Sort algorithm to sort an array of integers. The algorithm should start
+with a large gap, then perform a gapped insertion sort, and gradually reduce the gap until
+it's 1. After sorting, compare its performance against the Bubble Sort and Insertion Sort
+algorithms for the same input array size (e.g., 1000 elements). Record and display the time
+taken and the number of comparisons/swaps for all three algorithms to demonstrate why
+Shell Sort is an improvement over Insertion Sort. */
+
 #include <iostream>
 #include <vector>
 using namespace std;
