@@ -1,3 +1,16 @@
+/* Task#1:
+You are building a family ancestry app (like Ancestry.com). Each person is a node
+in a Binary Tree where:
+● Left child → Mother
+● Right child → Father
+Tasks:
+1. Construct a Binary Tree for a given family (3 or more generations).
+2. Display:
+o Root (youngest person)
+o Leaf nodes (ancestors with no known parents)
+o Height of the tree
+o Level of each member */
+
 #include <iostream>
 #include <string>
 using namespace std;
