@@ -1,3 +1,12 @@
+/* Task#2:
+Merge Two Sorted Singly Linked Lists:
+Implement a function to merge two sorted singly linked lists into one sorted list.
+• Example:
+    o List A: 1 → 3 → 5
+    o List B: 2 → 4 → 6
+    o Output: 1 → 2 → 3 → 4 → 5 → 6
+• Bonus: Solve without creating new nodes (rearrange pointers). */
+
 #include <iostream>
 using namespace std;
 
