@@ -1,3 +1,11 @@
+/* Task#1:
+Basic Stack Implementation:
+Implement a stack using arrays. Support the following operations:
+1. Push an element
+2. Pop an element
+3. Peek (top element)
+4. Display stack contents */
+
 #include <iostream>
 using namespace std;
 
