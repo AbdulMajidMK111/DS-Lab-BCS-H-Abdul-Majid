@@ -1,3 +1,10 @@
+/* Task#6:
+Implement a Safe Pointer class to wrap around an integer pointer.
+=> Provide methods for setValue(), getValue(), and release().
+=>
+Demonstrate the class by storing marks of 5 students and printing them safely without
+direct pointer manipulation. */
+
 #include <iostream>
 using namespace std;
 
