@@ -1,3 +1,8 @@
+/* Question#3:
+Create a C++ class Box that uses dynamic memory allocation for an integer. Implement the
+Rule of Three by defining a destructor, copy constructor, and copy assignment operator.
+Demonstrate the behavior of both shallow and deep copy using test cases. */
+
 #include <iostream>
 using namespace std;
 
