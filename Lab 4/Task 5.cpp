@@ -1,3 +1,9 @@
+/* Task#5:
+Implement the Interpolation Search algorithm. The program should take a sorted array
+with uniformly distributed values and a target value from the user. The algorithm should
+estimate the position of the target and check if the estimated position holds the correct
+value. If the element is found, print its index; otherwise, indicate that it's not present. */
+
 #include <iostream>
 #include <vector>
 using namespace std;
