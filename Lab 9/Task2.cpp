@@ -1,3 +1,8 @@
+/* Task#2:
+An e-commerce system stores product prices that must be searchable instantly.
+● Insert product prices into an AVL Tree
+● Perform range query: print all prices between X and Y */
+
 #include <iostream>
 using namespace std;
 
