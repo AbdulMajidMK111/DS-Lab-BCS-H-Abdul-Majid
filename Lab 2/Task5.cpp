@@ -1,3 +1,9 @@
+/* Task#5:
+Write a C++ program that dynamically creates a 2D matrix and provides:
+=> Addition of two matrices.
+=> Subtraction of two matrices.
+=> Ensure safe memory handling with proper allocation/deallocation. */
+
 #include <iostream>
 using namespace std;
 
