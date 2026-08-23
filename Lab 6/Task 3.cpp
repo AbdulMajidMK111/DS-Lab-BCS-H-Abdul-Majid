@@ -1,3 +1,11 @@
+/* Task#3:
+Simple Queue Implementation:
+Implement a linear queue using arrays with the following operations:
+1. Enqueue
+2. Dequeue
+3. Display queue contents
+4. Check if queue is empty/full */
+
 #include <iostream>
 using namespace std;
 
