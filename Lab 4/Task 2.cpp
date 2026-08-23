@@ -1,3 +1,8 @@
+/* Task#2:
+Write a program to implement the Bubble Sort algorithm. The program should take
+an array of integers as input from the user, sort the array using bubble sort, and then
+display both the unsorted and sorted arrays. */
+
 #include <iostream>
 #include <vector>
 using namespace std;
