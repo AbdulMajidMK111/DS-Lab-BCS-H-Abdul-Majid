@@ -1,3 +1,10 @@
+/* Task#4:
+Circular Queue:
+Implement a circular queue using arrays. Handle the following conditions correctly:
+1. Enqueue when rear wraps around
+2. Dequeue when front moves ahead
+3. Prevent overflow when queue is full */
+
 #include <iostream>
 using namespace std;
 
