@@ -1,3 +1,10 @@
+/* Task#5:
+Convert Between Linked List Types:
+Implement functions for conversion:
+1. Convert a singly linked list into a doubly linked list.
+2. Convert a singly linked list into a circular linked list.
+• Demonstrate both conversions with sample input lists. */
+
 #include <iostream>
 using namespace std;
 
