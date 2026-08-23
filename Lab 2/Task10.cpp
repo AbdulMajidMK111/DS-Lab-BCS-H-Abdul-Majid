@@ -1,9 +1,9 @@
-/* Task#2:
-Write a program that uses a dynamic 2D array to represent a seating chart in a classroom.
-=> Rows represent benches, columns represent seats on each bench.
-=> Initialize the array with 0 (empty).
-=> Let the user fill seats (1 for occupied).
-=> Print the final seating chart in matrix form. */
+/* Task#10:
+Design a program that maintains library book records using dynamic arrays.
+=> Each row represents a category (e.g., Fiction, Science, History).
+=> Each category has a different number of books (use a jagged array).
+=> Store book IDs dynamically and allow the user to search for a given book ID.
+=> Print whether the book is available and in which category. */
 
 #include <iostream>
 #include <string>
