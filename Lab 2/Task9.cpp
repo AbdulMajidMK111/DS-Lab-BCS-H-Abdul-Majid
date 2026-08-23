@@ -1,3 +1,9 @@
+/* Task#9:
+Implement a program to represent a sparse matrix using a dynamic 2D array.
+=> Input matrix elements.
+=> Display the matrix in normal form.
+=> Display the matrix in compressed form (row, column, value). */
+
 #include <iostream>
 using namespace std;
 
