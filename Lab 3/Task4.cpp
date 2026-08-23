@@ -1,3 +1,11 @@
+/* Task#4:
+Josephus Problem using Circular Linked List:
+Use a circular linked list to solve the Josephus problem:
+• N people stand in a circle, eliminating every k-th person until only one survives.
+• Input: N = 7, k = 3
+• Output: Position of survivor.
+• Hint: Use circular traversal and deletion. */
+
 #include <iostream>
 using namespace std;
 
