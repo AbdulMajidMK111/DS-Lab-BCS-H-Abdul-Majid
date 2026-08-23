@@ -1,3 +1,8 @@
+/* Task#2:
+Stack with Linked List:
+Implement a stack using linked lists. Demonstrate its use with a real-life example (e.g., browser
+history navigation). */
+
 #include <iostream>
 using namespace std;
 
