@@ -1,3 +1,10 @@
+/* Task#3:
+Reverse in Groups of K:
+Reverse nodes of a singly linked list in groups of size k.
+• Example:
+    o Input: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8, with k = 3
+    o Output: 3 → 2 → 1 → 6 → 5 → 4 → 8 → 7 */
+
 #include <iostream>
 using namespace std;
 
