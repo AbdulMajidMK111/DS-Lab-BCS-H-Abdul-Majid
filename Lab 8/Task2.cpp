@@ -1,3 +1,15 @@
+/* Task#2:
+A music app wants to organize songs based on how many times they’ve been played.
+● The play count acts as the BST key.
+● Higher play count = song is more popular.
+Tasks:
+1. Insert songs with play counts.
+2. Search for a song by play count.
+3. Display songs in:
+    o Inorder: Songs sorted from least to most played.
+    o Postorder: Songs removed from playlist in reverse popularity order.
+4. Delete a song and show updated BST. */
+
 #include <iostream>
 #include <string>
 using namespace std;
