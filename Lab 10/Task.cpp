@@ -1,30 +1,16 @@
 /* Task:
 A hospital must always treat patients with most severe
 condition first. Implement a max-priority queue where:        
-Each patient has a name, severity level (1-10)
+● Each patient has a name, severity level (1-10)
 and arrival time.
-Higher severity indicates higher priority
-If severity is equal, earlier arrival time
+● Higher severity indicates higher priority
+● If severity is equal, earlier arrival time
 indicates higher priority
-
-
-Operations to perform:
-
-
-·        
-Add a new patient
-
-
-·        
-Get next patient to treat
-
-
-·        
-Update a patient’s severity level
-
-
-·        
-Display all waiting patients in order from
+● Operations to perform:       
+o Add a new patient
+o Get next patient to treat
+o Update a patient’s severity level
+o Display all waiting patients in order from
 highest to lowest priority */
 
 #include <iostream>
