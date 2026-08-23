@@ -1,3 +1,12 @@
+/* Task#1:
+A university stores student roll numbers and must insert/delete students frequently.
+ Insert roll numbers into an AVL Tree.
+ Delete 3–4 roll numbers.
+ After each insert/delete:
+ Print tree height
+ Print rotation performed
+ Show balance factor of affected nodes */
+
 #include <iostream>
 using namespace std;
 
