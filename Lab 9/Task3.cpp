@@ -1,3 +1,14 @@
+/* Task#3:
+A hospital needs to maintain patient IDs based on severity scores (higher score =
+more critical).
+● Insert patient severity scores into an AVL Tree.
+● Every time a new patient arrives, insert and show if the tree becomes unbalanced.
+● When a patient is discharged, delete their score and rebalance the tree.
+● Print:
+o Tree height after each insert/delete
+o Rotation type applied
+o Highest severity patient (rightmost node) */
+
 #include <iostream>
 using namespace std;
 
