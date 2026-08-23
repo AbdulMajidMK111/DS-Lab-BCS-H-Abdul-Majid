@@ -1,3 +1,9 @@
+/* Task#1:
+Palindrome Check in Singly Linked List
+Write a program to check if a singly linked list is a palindrome.
+• Input: A singly linked list of integers.
+• Output: true if the list reads the same forward and backward, false otherwise. */
+
 #include <iostream>
 using namespace std;
 
